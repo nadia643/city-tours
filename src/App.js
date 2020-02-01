@@ -1,9 +1,14 @@
 import React from 'react';
 import './App.scss';
+import Navbar from "./components/Navbar/Navbar";
 
 class App extends React.Component {
   render() {
-    return <h1>Our current app</h1>
+    return (
+      <React.Fragment>
+        <Navbar />
+      </React.Fragment>
+    )
   }
 }
 
