@@ -1,3 +1,11 @@
+This web app show information about locations abroad.
+
+There is a toggle button next to "info," which toggles the information on and off should you wish to read about the place.
+
+The "x" button on the top right of every photo deletes the place from the page if you don't wish to see it come up.
+
+This can be reset by refreshing the page.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
