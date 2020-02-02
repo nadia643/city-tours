@@ -7,14 +7,19 @@ export default class TourList extends Component {
     state = {
         tours: tourData
     };
+    removeTour = id => {
+        console.log(id);
+    }
     render() {
-        console.log(this.state.tours);
+        // console.log(this.state.tours);
+        const { tours } = this.state;
         return (
-            <div>
-                Hello from tour list
-                <Tour />
+            <section className="tourlist">
+                {
+                    
+                }
 
-            </div>
+            </section>
         )
     }
 }
