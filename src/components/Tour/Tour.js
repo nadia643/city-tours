@@ -25,7 +25,7 @@ export default class Tour extends Component {
                     <h3>{city}</h3>
                     <h4>{name}</h4>
                     <h5>info {""}
-                        <span> 
+                        <span onClick={this.handleInfo}> 
                             <i className="fas fa-caret-square-down" />
                         </span>
                     </h5>
