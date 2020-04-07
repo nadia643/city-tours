@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  // box-sizing: border-box;
 }
 
 $mainBlack: #222;
@@ -11,9 +11,7 @@ $mainGrey: #ececec;
 $mainTransition: all 0.3s linear;
 
 
-
 body {
   font-family: "Open-Sans", sans-serif;
-  background: $mainWhite;
-  color: $mainBlack;
+  background: $mainGreen;
 }

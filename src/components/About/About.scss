@@ -1,5 +1,12 @@
 @import '../../index.scss';
 
 h1 {
-    color: green;
+    color: $mainBlack;
+    margin: 0 auto;
+    float: center;
+    padding: 2rem;
+}
+
+p {
+    color: $mainBlack;
 }
